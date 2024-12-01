@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Res</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+  <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
-     <header class="header">
+    <header class="header">
         <div class="logo">
-           <img src="./assets/logo1.avif"/>
-           <div class="logotext">Uncle Sammy</div>
+            <img src="./assets/logo1.avif" />
+            <div class="logotext">Uncle Sammy</div>
         </div>
         <nav class="nav">
             <ul>
@@ -32,12 +39,51 @@
         <div class="mobileMenu">
             <i class="fa-solid fa-bars"></i>
         </div>
-     </header>
-     
-     <div class="mobileNavigation">
-        
-     </div>
+    </header>
+
+    <!-- mobile navigation -->
+    <nav class="mobileNavigation">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#specialality">Specilaity</a>
+            </li>
+            <li>
+                <a href="#orders">Order</a>
+            </li>
+            <li>
+                <a href="#app">App</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero_section section">
+        <div class="container">
+            <div class="hero-left">
+                <h1>Fastest <span>Food</span> Delivery.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora, magnam ipsa qui et,
+                    molestias animi aliquam temporibus voluptatibus, incidunt enim sapiente. Impedit voluptatum
+                    consequatur, numquam quam molestiae neque ipsa!
+                </p>
+                <button class="btn">Order Now</button>
+            </div>
+            <div class="hero-right">
+                <img src="./assets/tandoori chick.jpg"/>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="ourspeciality_section">
+       <div class="container">
+          <h1>Our <span class="red">Special</span> Dishes</h1>
+          <div class="horizontalLine"></div>
+       </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
+
 </html>
