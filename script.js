@@ -29,7 +29,6 @@ for(let i = 0; i < orderDetailsData.length ; i++){
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
                     </div>
                     <div class="description">
                         <div class="title">${orderDetailsData[i].title}</div>
