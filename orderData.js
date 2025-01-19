@@ -47,4 +47,10 @@ const orderDetailsDate = [
         price : "34",
         rating: 4.1
     },
+    {
+        title :"veg",
+        img : "veg.jpg",
+        price: "45",
+        rating: 4.6
+    }
 ]
